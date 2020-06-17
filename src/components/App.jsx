@@ -34,7 +34,9 @@ const App = ({load, ...props}) => {
 
 App.displayName = 'App';
 
-const mapStateToProps = state => ({ load: state.load });
+const mapStateToProps = state => ({
+    load: state.load,
+});
 
 const mapDispatchToProps = { getData };
 

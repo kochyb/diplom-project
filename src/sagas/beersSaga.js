@@ -11,7 +11,6 @@ export function* getDataSaga() {
             yield put(startLoader());
 
             const beers = yield call(serverGet, beerUrl);
-            // const current = yield call(serverGet, searchUrl);
 
             yield put(addBeers(beers));
             yield put(endLoader());
