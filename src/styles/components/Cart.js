@@ -7,7 +7,6 @@ const cartStyle = {
         borderRadius: '.5rem',
         backgroundColor: 'rgba(84, 84, 84, 0.7)',
         position: 'relative',
-        /*width: 32%;*/
         width: '20rem',
         display: 'flex'
     },
